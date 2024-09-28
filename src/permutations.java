@@ -5,7 +5,7 @@ public class permutations {
 
 //        ArrayList<String> ans=permutationList("","abc");
 //        System.out.println(ans);
-        System.out.println(permutationscount("","abc"));
+        permutations("","abc");
 
     }
     static void permutations(String p,String up){
@@ -48,4 +48,4 @@ public class permutations {
         }
         return count;
     }
-}
+    }
